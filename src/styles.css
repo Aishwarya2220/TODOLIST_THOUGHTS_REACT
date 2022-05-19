@@ -1,0 +1,90 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: darkslateblue;
+  color: white;
+  margin: 10px;
+  border-radius: 20px;
+  width: 200px;
+  height: fit-content;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  justify-content: center;
+  box-shadow: 0 0 10px rgb(39, 16, 16);
+}
+.maincontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul li {
+  list-style: none;
+}
+.item {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.textbox {
+  border-radius: 10px;
+  height: 80px;
+  width: 900px;
+  margin-right: 20px;
+}
+.deletebtn {
+  background-image: linear-gradient(
+    to right,
+    #d31027 0%,
+    #ea384d 51%,
+    #d31027 100%
+  );
+  margin: 10px;
+  padding: 9px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+
+  border-radius: 10px;
+  display: block;
+  border: none;
+}
+
+.deletebtn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #4cb8c4 0%,
+    #3cd3ad 51%,
+    #4cb8c4 100%
+  );
+
+  padding: 15px 45px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
